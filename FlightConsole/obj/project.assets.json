@@ -53,11 +53,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\raghu\\source\\repos\\FlightConsole\\FlightConsole\\FlightConsole.csproj",
+      "projectUniqueName": "C:\\Users\\raghu\\source\\repos\\FlightConsole\\technical-assessment\\FlightConsole\\FlightConsole.csproj",
       "projectName": "FlightConsole",
-      "projectPath": "C:\\Users\\raghu\\source\\repos\\FlightConsole\\FlightConsole\\FlightConsole.csproj",
+      "projectPath": "C:\\Users\\raghu\\source\\repos\\FlightConsole\\technical-assessment\\FlightConsole\\FlightConsole.csproj",
       "packagesPath": "C:\\Users\\raghu\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\raghu\\source\\repos\\FlightConsole\\FlightConsole\\obj\\",
+      "outputPath": "C:\\Users\\raghu\\source\\repos\\FlightConsole\\technical-assessment\\FlightConsole\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\raghu\\AppData\\Roaming\\NuGet\\NuGet.Config",

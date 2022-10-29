@@ -18,16 +18,20 @@ namespace FlightConsole
             List<Flights> flights = new List<Flights>();
             Regex regex = new Regex(@"\(([^()]+)\)*");
             int day = 0;
-            //List<Flights> flights = new List<Flights>
-            //{
-            //    new Flights { Day = 1, FlightNumber = 1, Arraival = "YUL",Destination="YYZ" },
-            //    new Flights { Day = 1, FlightNumber = 2, Arraival = "YUL",Destination="YYC" },
-            //    new Flights { Day = 1, FlightNumber = 3, Arraival = "YUL",Destination="YVR" },
-            //    new Flights { Day = 2, FlightNumber = 4, Arraival = "YUL",Destination="YYZ" },
-            //    new Flights { Day = 2, FlightNumber = 5, Arraival = "YUL",Destination="YYC" },
-            //    new Flights { Day = 2, FlightNumber = 6, Arraival = "YUL",Destination="YVR" }
-            //};
-            //return flights;
+
+            //Statically adding the Schedules
+            /*
+            List < Flights > flights = new List<Flights>
+            {
+                new Flights { Day = 1, FlightNumber = 1, Arraival = "YUL",Destination="YYZ" },
+                new Flights { Day = 1, FlightNumber = 2, Arraival = "YUL",Destination="YYC" },
+                new Flights { Day = 1, FlightNumber = 3, Arraival = "YUL",Destination="YVR" },
+                new Flights { Day = 2, FlightNumber = 4, Arraival = "YUL",Destination="YYZ" },
+                new Flights { Day = 2, FlightNumber = 5, Arraival = "YUL",Destination="YYC" },
+                new Flights { Day = 2, FlightNumber = 6, Arraival = "YUL",Destination="YVR" }
+            };
+            return flights;
+            */
 
             string[] lines = System.IO.File.ReadAllLines(Directory.GetCurrentDirectory().Replace("\\bin\\Debug\\netcoreapp3.1", "")
                                                             + "\\FlightScheduleFlies\\TransportLY_FilghtSchedules.txt");
